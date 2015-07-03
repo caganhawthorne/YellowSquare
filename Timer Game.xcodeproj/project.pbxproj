@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8612F81B46C11600A55F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8612F71B46C11600A55F16 /* AppDelegate.swift */; };
+		EF8612FA1B46C11600A55F16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8612F91B46C11600A55F16 /* ViewController.swift */; };
+		EF8612FD1B46C11600A55F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8612FB1B46C11600A55F16 /* Main.storyboard */; };
+		EF8612FF1B46C11600A55F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8612FE1B46C11600A55F16 /* Assets.xcassets */; };
+		EF8613021B46C11600A55F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8613001B46C11600A55F16 /* LaunchScreen.storyboard */; };
+		EF86130D1B46C11600A55F16 /* Timer_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86130C1B46C11600A55F16 /* Timer_GameTests.swift */; };
+		EF8613181B46C11600A55F16 /* Timer_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8613171B46C11600A55F16 /* Timer_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8613091B46C11600A55F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8612EC1B46C11600A55F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8612F31B46C11600A55F16;
+			remoteInfo = "Timer Game";
+		};
+		EF8613141B46C11600A55F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8612EC1B46C11600A55F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8612F31B46C11600A55F16;
+			remoteInfo = "Timer Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF8612F41B46C11600A55F16 /* Timer Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8612F71B46C11600A55F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8612F91B46C11600A55F16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF8612FC1B46C11600A55F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8612FE1B46C11600A55F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8613011B46C11600A55F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8613031B46C11600A55F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8613081B46C11600A55F16 /* Timer GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF86130C1B46C11600A55F16 /* Timer_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_GameTests.swift; sourceTree = "<group>"; };
+		EF86130E1B46C11600A55F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8613131B46C11600A55F16 /* Timer GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8613171B46C11600A55F16 /* Timer_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_GameUITests.swift; sourceTree = "<group>"; };
+		EF8613191B46C11600A55F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8612F11B46C11600A55F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8613051B46C11600A55F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8613101B46C11600A55F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8612EB1B46C11600A55F16 = {
+			isa = PBXGroup;
+			children = (
+				EF8612F61B46C11600A55F16 /* Timer Game */,
+				EF86130B1B46C11600A55F16 /* Timer GameTests */,
+				EF8613161B46C11600A55F16 /* Timer GameUITests */,
+				EF8612F51B46C11600A55F16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8612F51B46C11600A55F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8612F41B46C11600A55F16 /* Timer Game.app */,
+				EF8613081B46C11600A55F16 /* Timer GameTests.xctest */,
+				EF8613131B46C11600A55F16 /* Timer GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8612F61B46C11600A55F16 /* Timer Game */ = {
+			isa = PBXGroup;
+			children = (
+				EF8612F71B46C11600A55F16 /* AppDelegate.swift */,
+				EF8612F91B46C11600A55F16 /* ViewController.swift */,
+				EF8612FB1B46C11600A55F16 /* Main.storyboard */,
+				EF8612FE1B46C11600A55F16 /* Assets.xcassets */,
+				EF8613001B46C11600A55F16 /* LaunchScreen.storyboard */,
+				EF8613031B46C11600A55F16 /* Info.plist */,
+			);
+			path = "Timer Game";
+			sourceTree = "<group>";
+		};
+		EF86130B1B46C11600A55F16 /* Timer GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF86130C1B46C11600A55F16 /* Timer_GameTests.swift */,
+				EF86130E1B46C11600A55F16 /* Info.plist */,
+			);
+			path = "Timer GameTests";
+			sourceTree = "<group>";
+		};
+		EF8613161B46C11600A55F16 /* Timer GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8613171B46C11600A55F16 /* Timer_GameUITests.swift */,
+				EF8613191B46C11600A55F16 /* Info.plist */,
+			);
+			path = "Timer GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8612F31B46C11600A55F16 /* Timer Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF86131C1B46C11600A55F16 /* Build configuration list for PBXNativeTarget "Timer Game" */;
+			buildPhases = (
+				EF8612F01B46C11600A55F16 /* Sources */,
+				EF8612F11B46C11600A55F16 /* Frameworks */,
+				EF8612F21B46C11600A55F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timer Game";
+			productName = "Timer Game";
+			productReference = EF8612F41B46C11600A55F16 /* Timer Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF8613071B46C11600A55F16 /* Timer GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF86131F1B46C11600A55F16 /* Build configuration list for PBXNativeTarget "Timer GameTests" */;
+			buildPhases = (
+				EF8613041B46C11600A55F16 /* Sources */,
+				EF8613051B46C11600A55F16 /* Frameworks */,
+				EF8613061B46C11600A55F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF86130A1B46C11600A55F16 /* PBXTargetDependency */,
+			);
+			name = "Timer GameTests";
+			productName = "Timer GameTests";
+			productReference = EF8613081B46C11600A55F16 /* Timer GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF8613121B46C11600A55F16 /* Timer GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8613221B46C11600A55F16 /* Build configuration list for PBXNativeTarget "Timer GameUITests" */;
+			buildPhases = (
+				EF86130F1B46C11600A55F16 /* Sources */,
+				EF8613101B46C11600A55F16 /* Frameworks */,
+				EF8613111B46C11600A55F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8613151B46C11600A55F16 /* PBXTargetDependency */,
+			);
+			name = "Timer GameUITests";
+			productName = "Timer GameUITests";
+			productReference = EF8613131B46C11600A55F16 /* Timer GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8612EC1B46C11600A55F16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Cagan Hawthorne";
+				TargetAttributes = {
+					EF8612F31B46C11600A55F16 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EF8613071B46C11600A55F16 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF8612F31B46C11600A55F16;
+					};
+					EF8613121B46C11600A55F16 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF8612F31B46C11600A55F16;
+					};
+				};
+			};
+			buildConfigurationList = EF8612EF1B46C11600A55F16 /* Build configuration list for PBXProject "Timer Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8612EB1B46C11600A55F16;
+			productRefGroup = EF8612F51B46C11600A55F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8612F31B46C11600A55F16 /* Timer Game */,
+				EF8613071B46C11600A55F16 /* Timer GameTests */,
+				EF8613121B46C11600A55F16 /* Timer GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8612F21B46C11600A55F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8613021B46C11600A55F16 /* LaunchScreen.storyboard in Resources */,
+				EF8612FF1B46C11600A55F16 /* Assets.xcassets in Resources */,
+				EF8612FD1B46C11600A55F16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8613061B46C11600A55F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8613111B46C11600A55F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8612F01B46C11600A55F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8612FA1B46C11600A55F16 /* ViewController.swift in Sources */,
+				EF8612F81B46C11600A55F16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8613041B46C11600A55F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF86130D1B46C11600A55F16 /* Timer_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF86130F1B46C11600A55F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8613181B46C11600A55F16 /* Timer_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF86130A1B46C11600A55F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8612F31B46C11600A55F16 /* Timer Game */;
+			targetProxy = EF8613091B46C11600A55F16 /* PBXContainerItemProxy */;
+		};
+		EF8613151B46C11600A55F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8612F31B46C11600A55F16 /* Timer Game */;
+			targetProxy = EF8613141B46C11600A55F16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF8612FB1B46C11600A55F16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8612FC1B46C11600A55F16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8613001B46C11600A55F16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8613011B46C11600A55F16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF86131A1B46C11600A55F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF86131B1B46C11600A55F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF86131D1B46C11600A55F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Timer Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hawthorne.Timer-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF86131E1B46C11600A55F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Timer Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hawthorne.Timer-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF8613201B46C11600A55F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Timer GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hawthorne.Timer-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer Game.app/Timer Game";
+			};
+			name = Debug;
+		};
+		EF8613211B46C11600A55F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Timer GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hawthorne.Timer-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer Game.app/Timer Game";
+			};
+			name = Release;
+		};
+		EF8613231B46C11600A55F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Timer GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hawthorne.Timer-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Timer Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF8613241B46C11600A55F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Timer GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hawthorne.Timer-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Timer Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8612EF1B46C11600A55F16 /* Build configuration list for PBXProject "Timer Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF86131A1B46C11600A55F16 /* Debug */,
+				EF86131B1B46C11600A55F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF86131C1B46C11600A55F16 /* Build configuration list for PBXNativeTarget "Timer Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF86131D1B46C11600A55F16 /* Debug */,
+				EF86131E1B46C11600A55F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF86131F1B46C11600A55F16 /* Build configuration list for PBXNativeTarget "Timer GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8613201B46C11600A55F16 /* Debug */,
+				EF8613211B46C11600A55F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF8613221B46C11600A55F16 /* Build configuration list for PBXNativeTarget "Timer GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8613231B46C11600A55F16 /* Debug */,
+				EF8613241B46C11600A55F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8612EC1B46C11600A55F16 /* Project object */;
+}
