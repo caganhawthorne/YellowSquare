@@ -14,6 +14,9 @@
 		EF8613021B46C11600A55F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8613001B46C11600A55F16 /* LaunchScreen.storyboard */; };
 		EF86130D1B46C11600A55F16 /* Timer_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86130C1B46C11600A55F16 /* Timer_GameTests.swift */; };
 		EF8613181B46C11600A55F16 /* Timer_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8613171B46C11600A55F16 /* Timer_GameUITests.swift */; };
+		EF8613281B46C1BF00A55F16 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8613271B46C1BF00A55F16 /* ViewControllerTwo.swift */; };
+		EF86132A1B46CC0400A55F16 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8613291B46CC0400A55F16 /* ViewControllerThree.swift */; };
+		EF86132C1B46EEA600A55F16 /* HighScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86132B1B46EEA600A55F16 /* HighScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		EF8613131B46C11600A55F16 /* Timer GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8613171B46C11600A55F16 /* Timer_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_GameUITests.swift; sourceTree = "<group>"; };
 		EF8613191B46C11600A55F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8613271B46C1BF00A55F16 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerTwo.swift; path = ../ViewControllerTwo.swift; sourceTree = "<group>"; };
+		EF8613291B46CC0400A55F16 /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		EF86132B1B46EEA600A55F16 /* HighScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				EF8612F71B46C11600A55F16 /* AppDelegate.swift */,
 				EF8612F91B46C11600A55F16 /* ViewController.swift */,
+				EF8613271B46C1BF00A55F16 /* ViewControllerTwo.swift */,
 				EF8612FB1B46C11600A55F16 /* Main.storyboard */,
+				EF86132B1B46EEA600A55F16 /* HighScore.swift */,
+				EF8613291B46CC0400A55F16 /* ViewControllerThree.swift */,
 				EF8612FE1B46C11600A55F16 /* Assets.xcassets */,
 				EF8613001B46C11600A55F16 /* LaunchScreen.storyboard */,
 				EF8613031B46C11600A55F16 /* Info.plist */,
@@ -257,6 +266,9 @@
 			files = (
 				EF8612FA1B46C11600A55F16 /* ViewController.swift in Sources */,
 				EF8612F81B46C11600A55F16 /* AppDelegate.swift in Sources */,
+				EF8613281B46C1BF00A55F16 /* ViewControllerTwo.swift in Sources */,
+				EF86132A1B46CC0400A55F16 /* ViewControllerThree.swift in Sources */,
+				EF86132C1B46EEA600A55F16 /* HighScore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
