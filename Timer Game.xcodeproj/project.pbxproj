@@ -17,6 +17,8 @@
 		EF8613281B46C1BF00A55F16 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8613271B46C1BF00A55F16 /* ViewControllerTwo.swift */; };
 		EF86132A1B46CC0400A55F16 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8613291B46CC0400A55F16 /* ViewControllerThree.swift */; };
 		EF86132C1B46EEA600A55F16 /* HighScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF86132B1B46EEA600A55F16 /* HighScore.swift */; };
+		EFBEB86B1B48594D005C596D /* ExperimentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBEB86A1B48594D005C596D /* ExperimentViewController.swift */; };
+		EFBEB86D1B485BE9005C596D /* ExperimentTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBEB86C1B485BE9005C596D /* ExperimentTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		EF8613271B46C1BF00A55F16 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerTwo.swift; path = ../ViewControllerTwo.swift; sourceTree = "<group>"; };
 		EF8613291B46CC0400A55F16 /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 		EF86132B1B46EEA600A55F16 /* HighScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScore.swift; sourceTree = "<group>"; };
+		EFBEB86A1B48594D005C596D /* ExperimentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperimentViewController.swift; sourceTree = "<group>"; };
+		EFBEB86C1B485BE9005C596D /* ExperimentTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperimentTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,9 @@
 				EF8612F71B46C11600A55F16 /* AppDelegate.swift */,
 				EF8612F91B46C11600A55F16 /* ViewController.swift */,
 				EF8613271B46C1BF00A55F16 /* ViewControllerTwo.swift */,
+				EFBEB86A1B48594D005C596D /* ExperimentViewController.swift */,
 				EF8612FB1B46C11600A55F16 /* Main.storyboard */,
+				EFBEB86C1B485BE9005C596D /* ExperimentTwoViewController.swift */,
 				EF86132B1B46EEA600A55F16 /* HighScore.swift */,
 				EF8613291B46CC0400A55F16 /* ViewControllerThree.swift */,
 				EF8612FE1B46C11600A55F16 /* Assets.xcassets */,
@@ -265,9 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8612FA1B46C11600A55F16 /* ViewController.swift in Sources */,
+				EFBEB86B1B48594D005C596D /* ExperimentViewController.swift in Sources */,
 				EF8612F81B46C11600A55F16 /* AppDelegate.swift in Sources */,
 				EF8613281B46C1BF00A55F16 /* ViewControllerTwo.swift in Sources */,
 				EF86132A1B46CC0400A55F16 /* ViewControllerThree.swift in Sources */,
+				EFBEB86D1B485BE9005C596D /* ExperimentTwoViewController.swift in Sources */,
 				EF86132C1B46EEA600A55F16 /* HighScore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +503,7 @@
 				EF86131E1B46C11600A55F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF86131F1B46C11600A55F16 /* Build configuration list for PBXNativeTarget "Timer GameTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +512,7 @@
 				EF8613211B46C11600A55F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF8613221B46C11600A55F16 /* Build configuration list for PBXNativeTarget "Timer GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +521,7 @@
 				EF8613241B46C11600A55F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,12 @@ class HighScore {
         highScore = score
     }
     
+    var mostTime = 0
+    
+    func updateMostTime(score: Int) {
+        mostTime = score
+    }
+    
     
 }
 
